@@ -31,7 +31,7 @@ dial #, where # is the number of the extension to be dialed.
 chat ...arbitrary text...
 ```
 
-Typically a conversation without errors would go like so, pickup -> dial # -> chat x times -> hangup and repeat!  
+Typically a conversation without errors would go like so, pickup -> dial # -> dialed picks up -> chat x times -> hangup and repeat!  
 
 Explaining each scenario would take up a lot of time and space, so I'll avoid doing that as playing around with the server and reading the code
 gives a clear idea of what can be done. 
